@@ -1,5 +1,4 @@
 const { test, expect, selectors } = require('@playwright/test');
-const dayjs = require('dayjs');
 const { baseUrlUat } = require('../configuration')
 const DIP_value = require('../configuration/DIP_value');
 const { randomEmail, dateOfBirth } = require('../configuration/generators');
@@ -49,17 +48,15 @@ test('DIP customer journey', async({ page }) => {
     await page.type("//input[@placeholder='07700 654321']", DIP_value.phoneNumber, { timeout: 5000 })
     await page.click('text=Confirm')
 
+
     //home-address page
 
 
 
 
 
-    //await page.type("(//input[@placeholder=' '])[1]", DIP_value.dateOfBirth)
 
-
-
-    await page.click("'[data-test=ssjsjsj]'")
+    //await page.click("'[data-test=ssjsjsj]'")
 
 
 });
