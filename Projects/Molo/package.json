@@ -1,0 +1,24 @@
+{
+    "name": "molo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "test": "tests"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@playwright/test": "^1.14.0",
+        "eslint": "^7.32.0"
+    },
+    "dependencies": {
+        "dayjs": "^1.10.6"
+    },
+    "engines": {
+        "node": "14.15.3"
+    }
+}
